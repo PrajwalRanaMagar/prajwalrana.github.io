@@ -1,0 +1,25 @@
+/* helper.css */
+.float-left {
+    float: left;
+  }
+  
+  .float-right {
+    float: right;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .dashed-border {
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  

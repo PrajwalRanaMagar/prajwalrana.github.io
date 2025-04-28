@@ -1,0 +1,109 @@
+/* style.css */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #fff;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.search-input {
+  width: 200px;
+  padding: 5px 10px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  padding: 6px 12px;
+  background: #34495e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Columns */
+.left-column {
+  width: 30%;
+  float: left;
+  background: #f1f1f1;
+  padding: 20px;
+}
+
+.right-column {
+  width: 68%;
+  float: right;
+  padding: 20px;
+}
+
+/* Profile Pic */
+.profile-pic img {
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+/* Header */
+.header {
+  background: #34495e;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.header h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Section */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.job, .education {
+  margin-bottom: 20px;
+}
+
+.job h4, .education h4 {
+  font-size: 18px;
+}
+
+.job span, .education span {
+  float: right;
+  color: #888;
+}
+
+/* Skill Bars */
+.skill-bar .bar {
+  background: #ccc;
+  height: 8px;
+  width: 100%;
+  margin: 8px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-bar .fill {
+  background: #2c3e50;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+}

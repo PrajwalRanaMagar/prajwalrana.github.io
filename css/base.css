@@ -1,0 +1,16 @@
+/* base.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: normal;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
