@@ -41,7 +41,8 @@
 .right-column {
   width: 68%;
   float: right;
-  padding: 20px;
+  /* padding: 20px; */
+  /* margin-top: 0px; */
 }
 
 /* Profile Pic */
